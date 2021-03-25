@@ -1,4 +1,15 @@
 img {
-  display: none;
   width: 300px;
+}
+
+#tiger-display {
+  display: none;
+}
+
+#chimpanzee-display {
+  display: none;
+}
+
+#elephant-display {
+  display: none;
 }

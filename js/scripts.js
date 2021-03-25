@@ -4,16 +4,16 @@ $(document).ready(function() {
     event.preventDefault();
 
     if (animalChoice==="tiger") {
-      $("#tiger-picture").show();
-      $("#chimpanzee-picture").hide();
-      $("#elephant-picture").hide();
+      $("#tiger-display").show();
+      $("#chimpanzee-display").hide();
+      $("#elephant-display").hide();
     } else if (animalChoice==="chimpanzee") {
-      $("#chimpanzee-picture").show();
-      $("#tiger-picture").hide();
-      $("#elephant-picture").hide();
+      $("#chimpanzee-display").show();
+      $("#tiger-display").hide();
+      $("#elephant-display").hide();
     } else {
-      $("#elephant-picture").show();
-      $("#chimpanzee-picture").hide();
-      $("#tiger-picture").hide();}
+      $("#elephant-display").show();
+      $("#chimpanzee-display").hide();
+      $("#tiger-display").hide();}
   })
 });
